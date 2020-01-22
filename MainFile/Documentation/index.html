@@ -1,0 +1,506 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="keywords" content="HTML5 Template" />
+<meta name="description" content="Sam Martin — Multi-Purpose HTML Template" />
+<meta name="author" content="potenzaglobalsolutions.com" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>Documentation - Cupid Love</title>
+
+<!-- Favicon -->
+<link rel="shortcut icon" href="assets/images/favicon.ico" />
+
+<!-- plugins -->
+<link href="assets/css/plugins-css.css" rel="stylesheet" type="text/css" />
+
+<!-- main style -->
+<link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div class="page-wrapper"> 
+  
+  <!--=================================
+ header -->
+  <div id="top"></div>
+  <header id="header" class="header bg-1">
+    <div class="container">
+      <div class="logo"> <a href="index.html"> <img id="logo_img" src="assets/images/logo.png" alt="logo"> </a> </div>
+      <div class="header-inner">
+        <h1>Cupid Love User Guide</h1>
+        <p>Firstly, big thanks for purchasing the cupid love application, your support is truly appreciated! If you have any questions that are beyond the scope of this help file, please feel free to email via our <a target="_blank" href="https://potezasupport.ticksy.com/"> User page contact form</a></p>
+      </div>
+    </div>
+  </header>
+  <section class="menu-bar sticky">
+    <div class="menu"> 
+      <!-- Navigation start -->
+      <div class="container">
+        <ul class="nav">
+          <li class="sub active"><a class="page-scroll" href="#introduction">Introduction</a></li>
+          <li class="sub"><a class="page-scroll" href="#component">Components</a></li>
+		   <li class="sub">
+            <a class="page-scroll" href="#webrequirements">Web Admin</a>
+            <ul class="sub-menu">
+              <li><a class="page-scroll" href="#webrequirement">Requirements</a></li>
+              <li><a class="page-scroll" href="#webconfig">Confuguration</a></li>
+            </ul>
+          </li>
+          <li class="sub">
+            <a class="page-scroll" href="#requirements">iOS</a>
+            <ul class="sub-menu">
+              <li><a class="page-scroll" href="#iosrequirement">Requirements</a></li>
+              <li><a class="page-scroll" href="#iosconfig">Confuguration</a></li>
+            </ul>
+          </li>
+          <li class="sub"><a class="page-scroll" href="#videos">Videos</a></li>
+          <li class="sub"><a class="page-scroll" href="#credits">Sources/Credits</a></li>
+          <li class="sub"><a class="page-scroll" href="#support">Support</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!--=================================
+ header -->
+  
+  <section class="main-Content container"> 
+    
+    <!--=================================
+Welcome -->
+    <div id="intro">
+      <div class="section-title" id="introduction">
+        <h3>Cupid Love Introduction</h3>
+      </div>
+      <div class="entry-content" itemprop="articleBody">
+        <p>This documentation will give you an understanding of how cupid love application is structured and, will guide you in performing the most common functions. If you require further assistance, related to topics not covered in this documentation, then please contact us via <a href="https://potezasupport.ticksy.com/">Our Support Forum</a></p>
+        <p>If you want to customize this product as per your requirement, please contact us here: <a href="https://potezasupport.ticksy.com/">Our Support Forum</a></p>
+        <p><b>Author:</b> Potenza Global Solutions <a href="http://www.potenzaglobalsolutions.com/" target="_blank">www.potenzaglobalsolutions.com</a></p>
+        </div>
+        <div class="section-title" id="component">
+        <h3>Cupid Love Components</h3>
+      </div>
+      <div class="entry-content" itemprop="articleBody">
+        <ol>
+          <li>Open the <span class="atv">... /Main File</span> Folder to find all the Source Files</li>
+          <li>Cupid love contains:
+            <ul style="list-style:none;">
+              <li><i class="fa fa-folder-open-o"></i> <span class="atv">CupidLove</span> - Folder
+              </li>
+              <li><i class="fa fa-folder-open-o"></i> <span class="atv">Documentation</span> - Documentation Folder</li>
+            </ul>
+          </li>
+        </ol>
+      </div>
+    </div>
+
+	  
+    <div id="webrequirements">
+      <div class="section-title">
+        <h3>Web Admin</h3>
+      </div>
+      <h3 id="webrequirement">- Requirements</h3>
+      <div class="entry-content" itemprop="articleBody">
+        <p>Following are the requirements to run web admin properly on your domain.</p>
+		<ul>
+			  <li>AWS server hosting( Stricly Recommanded )</li>
+			  <li>PHP 7+</li>
+			  <li>MYSQL 5.7+</li>
+			  <li>Enable mod_rewrite</li>
+			  <li>Enable mysqli extenstion</li>
+			  <li>Enable gd Library</li>
+			  <li>Google Place API Key</li>
+		</ul>
+      </div>
+      <br><br>
+	   <h3 id="webconfig">- Configuration</h3>
+    <div class="entry-content" itemprop="articleBody">
+      <p>Follow these steps to start using the cupid love web admin application on your domain.</p>
+      <ol>
+        <li>Unzip your Package bundle</li>
+        <li>Go to the Coupidlove/Adminapp</li>
+        <li>Copy Adminapp.zip File </li>
+        <li>Paste those files in your server desired folder. e.g. www/html/</li>
+        <li>Locate the folder where you want to host this application.</li>
+        <li>Paste the ZIP file and Extract it.</li>       
+        <li>Create database and database user on server</li>
+        <li>Locate the installed directory URL in the browser. example : http://yourdomain.com/</li>
+        <li>For the first time you will see the installation process.<li>
+		<ul>
+			<li>Requirements</li>
+			<li>Step - 1. Database Details.
+			<br/>Enter Databse details such as : Host Name, Database Username, User Password and Database Name.
+			</li>
+			<li>Step - 2. Create Admin Account
+			<br/>Enter Email address and password. This account will be used to access admin panel.
+			</li>
+			<li>Step - 3. General Configuration.
+			<br/>Select Language you want to set (English, Fench or Arabic)
+			<br/>Enter Facebook and Google API key.
+			</li>
+			<li>Step - 4. iOS Setting.
+			<br/>Enter XMPP host, XMPP server and XMPP default password.
+			</li>
+			<li>Step - 5. Other Details.</li>
+			<br/>Enter Details all details you have.
+			<br/>
+		</ul>
+        <li>Run website : URL: http://www.yourdomain.com/</li>
+    		<li>Admin Url: http://www.yourdomain.com/admin</li>	
+    		<li>Default Admin User Details:
+			<ul>
+				<li>Username : admin@yopmail.com</li>
+				<li>Password : 123456</li>
+			</ul>
+		</li>
+		<li>You API url will be : http://www.yourdomain.com/api/</li>
+      </ol>
+    </div>
+    </div>
+    
+    <div id="requirements">
+      <div class="section-title">
+        <h3>IOS</h3>
+      </div>
+      <h3 id="iosrequirement">- Requirements</h3>
+      <div class="entry-content" itemprop="articleBody">
+        <p>Following are the requirements to run the IOS application.</p>
+        <ul>
+          <li>Xcode 8 and newer version.</li>
+          <li>AppleDeveloper a/c (For BundleIdentifier,In-App-Purchase->Identifier from itunesconnect).</li>
+        </ul>
+      </div>
+      <br><br>
+        <h3 id="iosconfig">- Configuration</h3>
+	  <div class="entry-content" itemprop="articleBody">
+        <h5 id="SENDERID"><strong>A) Push Notification</strong></h5>
+
+<h5><strong>Step 1: Register your app to receive notification:</strong></h5>
+<p>Your app must use an Explicit App ID, to support Push Notifications.</p>
+
+<ol>
+<li>Navigate to the Apple Developer Member Center website, and click on Certificates, Identifiers &amp; Profiles.
+
+  <img class="aligncenter wp-image-430 size-full" src="http://docs.back4app.com/wp-content/uploads/2016/10/557x440xmainpage.png.pagespeed.ic.sgjvrzrzHj.png" alt="mainpage" width="557" height="440" srcset="http://docs.back4app.com/wp-content/uploads/2016/10/mainpage-300x237.png 300w, http://docs.back4app.com/wp-content/uploads/2016/10/mainpage.png 557w" sizes="(max-width: 557px) 100vw, 557px" pagespeed_url_hash="2251953119" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+
+  <li>Select an Identifier from the iOS Apps section.</li>
+<li>You will see a list of your App IDs. Click on the + button.</li>
+<li>Enter a name for your new App ID under App ID Description, choose an App Id Prefix, and under App ID Suffix, select Explicit App ID, enter your iOS app’s Bundle ID, it should match the Bundle Identifier in your Xcode project configuration and, add in the Info.plist file.</li>
+<li>Enable Push Notifications under App Services. Enable other services that your app will need.</li>
+<li>Click on “Continue”, check that all values entered were correct. Click on “Submit”.</li>
+</ol>
+<p>Now you’ve created the App ID; you need to configure the App ID for Push Notifications.</p>
+<ol>
+
+<li>Select your new App ID and click on “Edit”. <br><img class="aligncenter wp-image-431 size-full" src="http://docs.back4app.com/wp-content/uploads/2016/10/738x782xappIddetails.png.pagespeed.ic.SNFuRo-CAR.png" alt="appiddetails" width="738" height="782" srcset="http://docs.back4app.com/wp-content/uploads/2016/10/appIddetails-283x300.png 283w, http://docs.back4app.com/wp-content/uploads/2016/10/appIddetails.png 738w" sizes="(max-width: 738px) 100vw, 738px" pagespeed_url_hash="3319030677" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></li>
+<li>Scroll down to the Push Notifications section, click on “Create Certificate” under “Development SSL Certificate”.<img class="aligncenter wp-image-432 size-full" src="http://docs.back4app.com/wp-content/uploads/2016/10/667x408xConfigurePushNotifications.png.pagespeed.ic.-P5T2-b1KM.png" alt="configurepushnotifications" width="667" height="408" srcset="http://docs.back4app.com/wp-content/uploads/2016/10/ConfigurePushNotifications-300x184.png 300w, http://docs.back4app.com/wp-content/uploads/2016/10/ConfigurePushNotifications.png 667w" sizes="(max-width: 667px) 100vw, 667px" pagespeed_url_hash="3507308651" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></li>
+<li>Follow instructions on the next screen to create a Certificate Signing Request (CSR) using the Keychain Access utility on your Mac; this is needed to authenticate the creation of the SSL certificate.</li>
+<li>Upload the CSR to Apple’s servers, and then click on “Generate”.</li>
+<li>Add the certificate to your login keychain. <br><img class="aligncenter wp-image-433 size-full" src="http://docs.back4app.com/wp-content/uploads/2016/10/536x302xAddCertificatesToKeychain.png.pagespeed.ic.5Nodh5Srz-.png" alt="addcertificatestokeychain" width="536" height="302" srcset="http://docs.back4app.com/wp-content/uploads/2016/10/AddCertificatesToKeychain-300x169.png 300w, http://docs.back4app.com/wp-content/uploads/2016/10/AddCertificatesToKeychain.png 536w" sizes="(max-width: 536px) 100vw, 536px" pagespeed_url_hash="2919363525" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></li>
+<li>Open the Keychain Access utility. Locate the certificate under “My Certificates”. It should be called “Apple Development Push Services”. Right-click on it, select “Export”, and save it as a .p12 file. Do not enter an export password when prompted!<br><img class="aligncenter wp-image-434 size-full" src="http://docs.back4app.com/wp-content/uploads/2016/10/709x171xExportCertificate.png.pagespeed.ic.BlTNq7ncjD.png" alt="exportcertificate" width="709" height="171" srcset="http://docs.back4app.com/wp-content/uploads/2016/10/ExportCertificate-300x72.png 300w, http://docs.back4app.com/wp-content/uploads/2016/10/ExportCertificate.png 709w" sizes="(max-width: 709px) 100vw, 709px" pagespeed_url_hash="2236688962" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></li>
+</ol>
+<p>You will need to repeat the process to make the Production SSL Certificate.</p>
+<p>Now we need to configure the Xcode project.</p>
+<ol>
+<li>Go to your project’s Capabilities page, then turn On Push Notifications. If any issues require your attention, Xcode will let you know.<img class="aligncenter wp-image-435 size-full" src="http://docs.back4app.com/wp-content/uploads/2016/10/930x486x4_capabilitieseditor_2x.png.pagespeed.ic.aaFtq4V1y9.png" alt="4_capabilitieseditor_2x" width="850" height="486" srcset="http://docs.back4app.com/wp-content/uploads/2016/10/4_capabilitieseditor_2x-300x157.png 300w, http://docs.back4app.com/wp-content/uploads/2016/10/4_capabilitieseditor_2x-768x401.png 768w, http://docs.back4app.com/wp-content/uploads/2016/10/4_capabilitieseditor_2x.png 930w" sizes="(max-width: 930px) 100vw, 930px" pagespeed_url_hash="501495614" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></li>
+<li>Go to the General page. Modify the Bundle Identifier to match your App ID’s Bundle Identifier.</li>
+</ol>
+
+    <hr>
+    <br>
+
+    <h5 id="PARSESERVER"><strong>B) XMPP Server Setup</strong></h5>
+
+    <p><strong>To learn more about XMPP Server</strong> <a href="https://www.process-one.net/en/ejabberd//">Click here</a></p>
+    <p><strong>Install XMPP Server : </strong> <a href="https://www.digitalocean.com/community/tutorials/how-to-install-ejabberd-xmpp-server-on-ubuntu">Ubuntu</a>, <a href="https://docs.ejabberd.im/admin/installation/#installing-ejabberd-with-operating-system-specific-packages">Windows</a></p>
+    <hr>
+
+    <p><strong>Learn how to setup XMPP Server using ejabberd: </strong> <a href="https://www.youtube.com/watch?v=nujlwxnYtBg">Ubuntu</a>, <a href="https://www.youtube.com/watch?v=yUsBrXiSlMU">Windows</a></p>
+    <hr>
+    <br>
+    <h5 id="LIVEQUEY"><strong>C) phpMyAdmin</strong> - <a href="#toc">top</a></h5>
+
+    <p><strong>To learn how to import the database in phpMyAdmin Click here</strong> <a href="https://mediatemple.net/community/products/dv/204403864/export-and-import-mysql-databases">Click here</a></p>
+
+    <hr>
+    <br>
+
+    <h5 id="IMPORT"><strong>D) iOS App Import</strong></h5>
+
+    <p>Now we will set up our iOS to Make it communicate with our XMPP Server.</p>
+
+      <ol>
+        <li>Open downloaded folder from Codecanyon</li>
+
+        <li>Click on <strong> CupidLove.xcworkspace </strong> and open it.</li>
+
+        <img src="assets/images/ios/1.png" class="img-responsive" />
+
+
+      </ol>
+
+    <p>Wait for Xcode to load set up all files and dependencies.</p>
+
+    <h5> <strong>NOTE: Now we have to refresh pods to avoid error.</strong> </h5>
+
+    <p> 1. Open your "Terminal" and Install cocoa pods using this command <strong> $sudo gem install cocoa pods</strong> It can take several minutes so be patient.
+</p>
+    <p> 2. In "Terminal" Navigate to your project home directory and type <strong> $ pod install </strong> It can take several minutes so be patient</p>
+	<p> 3. <a href="https://guides.cocoapods.org/using/getting-started.html">Click here</a> for further information.</p>
+
+    Once finished your App is now ready to compile in real device or iOS Simulator.
+    <br>
+    <hr>
+    <br>
+
+    <h5 id="APPCUSTOM"><strong>E) App Customization</strong></h5>
+
+    <p>You can change app detail from <strong>PrefixHeader.pch</strong> file.
+
+    <ol>
+      <li>See the image to how to change app detail like Appurl, image URL, etc.</li>
+      <img src="assets/images/ios/3.png" class="img-responsive" />
+
+    </ol>
+    
+    <hr>
+    <br>
+
+    <p>To customize the name and bundle identifier</p>
+
+    <img src="assets/images/ios/5.png" class="img-responsive" />
+
+    <hr>
+    <br>
+
+
+   
+    <h5 id="IAP"><strong>F) In App Purchase </strong></h5>
+
+    <p><strong>Now we are going to set up our next money source by in-app purchase. To setup In-app purchase go to <a href="https://itunesconnect.apple.com/">https://itunesconnect.apple.com/</a> and do as follows</strong></p>
+
+      <ol>
+        <li>Sign In / Sign Up to your account and add the new app</li>
+
+        <img src="assets/images/IAP/1.png" class="img-responsive" />
+        <li>Then add In-app purchase to your app.</li>
+
+        <img src="assets/images/IAP/2.png" class="img-responsive" />
+
+        <li>Select any one In-app purchase that you want for your app.</li>
+
+        <img src="assets/images/IAP/3.png" class="img-responsive" />
+        <li>Enter price value, start date and end date for your app.</li>
+
+        <img src="assets/images/IAP/4.png" class="img-responsive" />
+        <li>Then save and generate product id, apple id, etc.</li>
+
+        <img src="assets/images/IAP/5.png" class="img-responsive" />
+        <!--<li>Copy that product id and paste it in <strong>PrefixHeader.pch</strong> file at kRemoveAddInAppPurchase.</li>
+
+        <img src="assets/images/IAP/6.png"class="img-responsive" />-->
+        <li>Go to CupidLove admin panel, select CONFIGURATION from the left menu and enter your In-App Purchase Id in RemoveAddInAppPurchase.</li>
+        <img src="assets/images/admin/inapppurchase_id.png" class="img-responsive">
+
+        <li>Like this remove add In-App Purchase, create all other In-App Purchases for Paid Chat, Location Services and Super like Feature. And add detail about In-App Purchases in the CONFIGURATION page of Admin panel.<br>From this setup you have added all the In-App Purchase products to CupidLove.</li>
+
+        <li>Now to enable all In-App Purchases, select FEATURE from the left menu and setup all In-App Purchases enable. And provide per day limit to SuperLike for the user who already purchased Service for SuperLike. By default per day One super like is given to the user who did not get In-App Purchase for Super like.</li>
+        <img src="assets/images/admin/feature_list.png" class="img-responsive">
+
+      </ol>
+
+    <hr>
+    <br>
+    <h5 id="FACEBOOK"><strong>G) Facebook Login</strong></h5>
+    <ol>
+    <li> Go to <a href="https://developers.facebook.com/">https://developers.facebook.com/</a> and follow instructions to create a new app within facebook developers account to get Facebook APP ID </li>
+
+    <li>  In the corner click in your picture and drop-down to create the new app or register to developers account then create the new app </li>
+
+    <img src="assets/images/fb/1.png" class="img-responsive" /><br>
+    <img src="assets/images/fb/2.png" class="img-responsive" />
+
+    <li> After creating the new app, Now go to Dashboard click Set Up On Facebook Login and get Facebook APP ID.</li>
+
+    <img src="assets/images/fb/3.png" class="img-responsive" />
+
+    <li> Copy and paste your Facebook App ID in <strong>info.plist</strong> file and also copy in URL Schemes item 0 with prefix 'fb'.</li>
+
+    <img src="assets/images/fb/4.png" class="img-responsive" /> <br><br>
+    <img src="assets/images/fb/7.png" class="img-responsive" /> <br>
+
+    <li> To make an application available for public go to  <strong>App Review</strong> change Make CupidLove public from No to Yes and also submit the list of items that we need to get permission from the user.</li>
+    <img src="assets/images/fb/6.png" class="img-responsive" />
+    <li>Go to CupidLove admin panel, select CONFIGURATION from the left menu and enter your FACEBOOK API KEY.</li>
+    <img src="assets/images/admin/facebook_api_key.png" class="img-responsive">
+  </ol>
+  <hr>
+    <br>
+	
+    <h5 id="FACEBOOK"><strong>H) API key Generation</strong></h5>
+    <p>Login to google developers console and follow these steps to create API key.</p>
+    <ol>
+    <li>Select the project or create the new project.</li>
+
+    <li>Go to credentials and create the credential for API key.</li>
+
+    <img src="assets/images/image1.png" class="img-responsive" /><br>
+
+    <li>Restrict key to iOS app.</li>
+
+    <img src="assets/images/image2.png" class="img-responsive" />
+
+    <li>Go to Dashboard and Click on enable API.</li>
+
+    <li>Select Google Places API for iOS.</li>
+    <img src="assets/images/image3.png" class="img-responsive" />
+    <li>Go to CupidLove admin panel, select CONFIGURATION from the left menu and enter your GOOGLE PLACE API KEY.</li>
+    <img src="assets/images/admin/googleplace_api_key.png" class="img-responsive">
+  </ol>
+  <hr>
+    <br>
+
+    <h5 id="FACEBOOK"><strong>I) ADMOB key Generation</strong></h5>
+    <p>Login to <a href="https://apps.admob.com/" target="_blank">https://apps.admob.com/</a> and these steps to create Ad unit Ids.</p>
+    <ol>
+    <li>Go to MONETIZE tab and click on MONETIZE NEW APP.</li>
+
+    <li>Add your app and select platform iOS.</li>
+
+    <img src="assets/images/image4.png" class="img-responsive" /><br>
+
+    <li>Select ad format banner and name ad unit.</li>
+
+    <img src="assets/images/image5.png" class="img-responsive" />
+
+    <li>Select ad format Interstitial and name ad unit.</li>
+    <img src="assets/images/image6.png" class="img-responsive" />
+    <li>Go to CupidLove admin panel, select CONFIGURATION from the left menu and enter your adMobKey and adMobVideoKey.</li>
+    <img src="assets/images/admin/admob_key.png" class="img-responsive">
+  </ol>
+  
+    <h5 id="FACEBOOK"><strong>J) Multi Language</strong></h5>
+    <p>Now we are going to setup Multiple Language Support in iOS app. Currently four language's are added (English, French, Russian, Arabic). You can add another language also as per Requirements But need to make necessary changes to Admin and WebApp.You can Follow steps in given <a href="https://www.youtube.com/watch?v=KJYuGTMXcGs" target="_blank">Video</a>  to add new Language in iOS app.</p>
+
+	<h5 id="INSTAGRAM"><strong>K) Instagram Setup</strong></h5>
+    <ol>
+    <li> Go to <a href="https://www.instagram.com/developer/">https://www.instagram.com/developer/</a> and follow instructions to Register your application on Instagram. </li>
+	
+    <li>  Now click on Register Your Application.</li>
+
+    <img src="assets/images/insta/1.png" class="img-responsive" /><br>
+	
+	<li> Click Register a New Client to register your application on INSTAGRAM.</li>
+    <img src="assets/images/insta/2.png" class="img-responsive" />
+	<img src="assets/images/insta/3.png" class="img-responsive" />
+
+    <li> After register new application, you will get your application CLIENT ID and Client Secret.</li>
+	<img src="assets/images/insta/5.png" class="img-responsive" />
+    <img src="assets/images/insta/4.png" class="img-responsive" />
+    <li>Go to CupidLove admin panel, select CONFIGURATION from the left menu and enter your INSTAGRAM CLIENT SECRET, and INSTAGRAM CLIENT ID.</li>
+    <img src="assets/images/admin/instagram_key.png" class="img-responsive">
+	<li>.You can Follow steps in given <a href="https://www.youtube.com/watch?v=6GBRBMhYO8o" target="_blank">Video</a> to add your Insta Client ID and Client secret.</li>
+
+  </ol>
+  <hr>
+    <br>	
+      </div>
+    </div>
+	
+
+    </div>
+  </sevtion>
+	<section id="videos" class="container">
+      <div class="section-title">
+        <h3>Videos</h3>
+      </div>
+      <p>To make it easy for you to use our form builder we have made some videos to get you through the process of setup.</p>
+      <ol>
+        <li><a href="https://youtu.be/exWwpTBp8JM?t=382" target="_blank">How to install / configure XMPP server</a></li>
+        <li><a href="https://youtu.be/OYB4MzMEWJU" target="_blank">How to configure/install admin application</a></li>
+        <li><a href="https://www.youtube.com/watch?v=cHJxLx04P5o" target="_blank">How to install pods</a></li>
+        <li><a href="https://www.youtube.com/watch?v=6evdk-_-geQ" target="_blank">How to get Google API key</a></li>
+        <li><a href="https://www.youtube.com/watch?v=wgu18QqJix0" target="_blank">How to get Facebook API Key</a></li>
+        <li><a href="https://www.youtube.com/watch?v=6GBRBMhYO8o" target="_blank">How to get Instagram API key</a></li>
+
+        <li><a href="https://www.youtube.com/watch?v=KJYuGTMXcGs" target="_blank">Multi Language add new Language in iOS App</a></li>
+        <li><a href="https://www.youtube.com/watch?v=-7vJRm9Q5WM" target="_blank">ADMob</a></li>
+        <li><a href="https://youtu.be/rWBXv-FWcKQ" target="_blank">How to create In-App Purchase</a></li>
+      </ol>
+  </section>
+  <br>
+<br>
+<br>
+    <!--=================================
+Sources/Credits --> 
+<section id="credits" class="container">
+      <div class="section-title">
+        <h3>Sources/Credits </h3>
+      </div>
+      <ul>
+        <li><a href="https://github.com/jaykz52/CKCalendar">Ck Calendar</a></li>
+        <li><a href="https://developers.google.com/places/ios-api/">Google Place API</a></li>
+        <li><a href="https://github.com/reddavis/REDRangeSlider">Range Slider</a></li>
+        <li><a href="https://github.com/rs/SDWebImage/blob/master/SDWebImage/UIImageView%2BWebCache.h">SDWebImage Package</a></li>
+        <li><a href="https://github.com/mikefrederick/MFSideMenu">Side Menu</a></li>
+        <li><a href="https://github.com/hackiftekhar/IQKeyboardManager">IQKeyBoard Manager</a></li>
+        <li><a href="https://github.com/AFNetworking/AFNetworking">AFNetworking</a></li>
+        <li><a href="https://github.com/robbiehanson/XMPPFramework">XMPP Framework</a></li>
+      </ul>
+  </section>
+  <br>
+<br>
+<br>
+    <!--=================================
+Support --> 
+<section id="support" class="container">
+      <div class="section-title">
+        <h3>Support</h3>
+      </div>
+      <p>Have any queries related to <strong>Cupid Love Application</strong>. Feel free to contact our support. We will try to help you as soon as possible. Contact our support by creating the ticket:</p>
+      <a href="https://potezasupport.ticksy.com/" target="_blank">https://potezasupport.ticksy.com/</a>
+  </section>
+  <br>
+<br>
+<br>
+</section>
+<footer class="footer text-center" id="contact">
+    <div class="container">
+      <div class="footer-widget">
+      <p>Once again, thank you so much for purchasing this application. As we said at the beginning, We'd be glad to help you if you have any questions related to this form builder. No guarantees, but we'll do our best to assist. If you have a more general question related to the application on C odecanyon, you might consider visiting the forums in the "Item Discussion" section.</p>
+      <p>Designed and built with love by <a href="http://potenzaglobalsolutions.com/">Potenza Global Solutions</a></p>
+    </div>
+    </div>
+  </footer>
+
+<!--=================================
+ back to top --> 
+
+<div id="back-to-top"><a class="top arrow wow slideInRight" href="#top"><i class="fa fa-angle-up"></i></a></div>
+
+<!--=================================
+ back to top --> 
+
+<!--=================================
+ jquery --> 
+
+<!-- jquery  --> 
+<script type="text/javascript" src="assets/js/jquery.min.js"></script> 
+
+<!-- Sticky menu --> 
+<script type="text/javascript" src="assets/js/jquery.sticky.js"></script> 
+
+<!-- jquery seasing  --> 
+<script type="text/javascript" src="assets/js/jquery.easing.min.js"></script> 
+
+<!-- jquery prettify  --> 
+<script type="text/javascript" src="assets/js/prettify.js"></script> 
+
+<!-- jquery prettify  --> 
+<script type="text/javascript" src="assets/js/script.js"></script> 
+
+<!-- custom --> 
+<script type="text/javascript" src="assets/js/custom.js"></script>
+</body>
+</html>
